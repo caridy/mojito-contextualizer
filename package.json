@@ -1,0 +1,24 @@
+{
+    "name"       : "mojito-contextualizer",
+    "description": "Mojito Server Contextualizer Component",
+    "version"    : "0.1.0",
+    "author"     : "Caridy Patino <caridy@gmail.com> (http://github.com/caridy)",
+    "preferGlobal": true,
+
+    "engines": {
+        "node": "0.8.x",
+        "npm" : "1.1.x"
+    },
+
+    "dependencies": {},
+
+    "main": "lib/contextualizer",
+
+    "keywords": [
+        "framework",
+        "context",
+        "ycb",
+        "mojito"
+    ]
+
+}
