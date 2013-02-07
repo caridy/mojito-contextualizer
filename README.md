@@ -32,10 +32,10 @@ contextualizer({
 app.use(contextualizer.lang);
 
 // mojito will use dispatcher config to dispatch "index"
-app.get('/', function (req, res, next) {
+app.get('*', function (req, res, next) {
     res.send({
-        server: contextualizer.locals,
-        req: req.context
+        server: contextualizer.config(),
+        expose: contextualizer.expose(req, res)
     });
 });
 
